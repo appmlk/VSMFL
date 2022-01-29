@@ -1,0 +1,4 @@
+278417_buggy.c
+278417_correct.c
+10,12,14
+for循环语句错误，缺少ifelse分支

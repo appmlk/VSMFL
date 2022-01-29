@@ -1,0 +1,4 @@
+271797_buggy.c
+271797_correct.c
+36
+if应改为else if

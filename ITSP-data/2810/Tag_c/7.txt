@@ -1,0 +1,4 @@
+270053_buggy.c
+270053_correct.c
+7
+应使用fasb而不是abs

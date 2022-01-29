@@ -1,0 +1,4 @@
+270057_buggy.c
+270057_correct.c
+7
+area变量计算错误

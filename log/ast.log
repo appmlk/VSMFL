@@ -1,0 +1,46 @@
+FileAST: 
+  FuncDef: 
+    Decl: main, [], [], []
+      FuncDecl: 
+        TypeDecl: main, []
+          IdentifierType: ['int']
+    Compound: 
+      Decl: a, [], [], []
+        TypeDecl: a, []
+          IdentifierType: ['int']
+      Decl: b, [], [], []
+        TypeDecl: b, []
+          IdentifierType: ['int']
+      While: 
+        BinaryOp: !=
+          FuncCall: 
+            ID: scanf
+            ExprList: 
+              Constant: string, "%d%d"
+              UnaryOp: &
+                ID: a
+              UnaryOp: &
+                ID: b
+          ID: EOF
+        Compound: 
+          If: 
+            BinaryOp: !=
+              ID: b
+              Constant: int, 0
+            Compound: 
+              FuncCall: 
+                ID: printf
+                ExprList: 
+                  Constant: string, "%d\n"
+                  BinaryOp: +
+                    ID: a
+                    BinaryOp: /
+                      BinaryOp: /
+                        ID: b
+                        Constant: int, 2
+                      ID: b
+            Compound: 
+              FuncCall: 
+                ID: printf
+                ExprList: 
+                  Constant: string, "error\n"
