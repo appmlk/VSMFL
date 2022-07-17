@@ -1,5 +1,5 @@
-# VSMFL
-> Ask Variables: Variable Values Sequence Matching Based Fault Localization
+# VsusFL
+> VsusFL: Variable suspiciousness based Fault Localization for Debugging Novice Programs
 
 ## Introduction
 * This project corresponds to the experiments and results in the paper `Ask Variables: Variable Values Sequence Matching Based Fault Localization` (doi links will be added in the future).
