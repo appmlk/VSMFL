@@ -1,7 +1,7 @@
 
 # Experiment Results
 
-This document presents the results of several experiments conducted using different fault localization methods.
+This document presents the results of several experiments conducted using different fault localization methods, with or without N in parentheses means whether there is normalization or not.
 
 ## VsusFL
 
