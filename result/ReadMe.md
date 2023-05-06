@@ -1,50 +1,68 @@
-
 # Experiment Results
 
-This document presents the results of several experiments conducted using different fault localization methods, with or without N in parentheses means whether there is normalization or not.
+This document summarizes the results of various experiments conducted using different fault localization methods.
 
 ## VsusFL
 
-VsusFL is the method proposed in the paper corresponding to this GitHub project. The results of the VsusFL experiments are presented in the following file:
+VsusFL is the method proposed in the paper associated with this GitHub project. The results of the VsusFL experiments can be found in the following file:
 
 - `VsusFL_sus.xlsx`
 
 ## VSBFL
 
-VSBFL (Variable Value Sequence Based Fault Localization) is a method described in a paper by Li et al. (2021). The results of the VSBFL experiments are presented in the following file:
+VSBFL (Variable Value Sequence Based Fault Localization) is a method detailed in a paper by Li et al. (2021). The results of the VSBFL experiments can be found in the following file:
 
-- `vsbfl_sus.xlsx`
+- `VSBFL_sus.xlsx`
 
 ## VFL
 
-VFL (Variable-based fault localization) is a method described in a paper by Kim et al. (2019). The results of the VFL experiments are presented in the following file:
+VFL (Variable-based Fault Localization) is a method detailed in a paper by Kim et al. (2019). The results of the VFL experiments can be found in the following file:
 
-- `vfl(Tarantula)_sus.xlsx`
+- `VFL_sus.xlsx`
+
+## Angelic Debugging
+
+Angelic Debugging is a method detailed in a paper by Chandra et al. (2011). The results of the Angelic Debugging experiments can be found in the following file:
+
+- `AngelicDebugging_sus.xlsx`
+
+## Grace
+
+Grace is a method detailed in a paper by Luo et al. (2021). The results of the Grace experiments can be found in the following file:
+
+- `Grace_sus.xlsx`
 
 ## Linear Combination
 
-The Linear combination experiments were conducted, and the results are presented in the following files:
+The Linear Combination experiments were conducted, and the results are presented in the following files (The numbers in parentheses indicate different values of the β parameter):
 
-- `linear_fit(N)_sus.xlsx`
-- `linear_fit_sus.xlsx`
+- `Linear_(0.0)_sus.xlsx`
+- `Linear_(0.1)_sus.xlsx`
+- `Linear_(0.2)_sus.xlsx`
+- `Linear_(0.3)_sus.xlsx`
+- `Linear_(0.4)_sus.xlsx`
+- `Linear_(0.5)_sus.xlsx`
+- `Linear_(0.6)_sus.xlsx`
+- `Linear_(0.7)_sus.xlsx`
+- `Linear_(0.8)_sus.xlsx`
+- `Linear_(0.9)_sus.xlsx`
+- `Linear_(1.0)_sus.xlsx`
 
 ## Multiplication Combination
 
-The Multiplication combination experiments were conducted, and the results are presented in the following files:
+The Multiplication Combination experiment was conducted, and the results are presented in the following file:
 
-- `multiplication_fit(N)_sus.xlsx`
-- `multiplication_fit_sus.xlsx`
+- `Multiplication_sus.xlsx`
 
 ## Regression Combination
 
-The Regression combination experiments were conducted, and the results are presented in the following files:
+The Regression Combination experiment was conducted, and the results are presented in the following file:
 
-- `regression(N)_sus.xlsx`
-- `regression_sus.xlsx`
+- `Regression_sus.xlsx`
 
 ## SBFL Formulae
 
-The following SBFL formulae were used in the experiments:
+The following SBFL formulae were utilized in the experiments:
 
 - Dstar
 - Jaccard
@@ -52,14 +70,10 @@ The following SBFL formulae were used in the experiments:
 - Op2
 - Tarantula
 
-The results of the experiments using these formulae are presented in the following files:
+The results of the experiments using these formulae can be found in the following files:
 
-- `sbfl(Dstar)_sus.xlsx`
-- `sbfl(Jaccard)_sus.xlsx`
-- `sbfl(Ochiai)_sus.xlsx`
-- `sbfl(Op2)_sus.xlsx`
-- `sbfl(Tarantula)_sus.xlsx`
-
-# Correlation Results
-
-The images in this folder show the correlation between the different fault localization methods.
+- `SBFL(Dstar)_sus.xlsx`
+- `SBFL(Jaccard)_sus.xlsx`
+- `SBFL(Ochiai)_sus.xlsx`
+- `SBFL(Op2)_sus.xlsx`
+- `SBFL(Tarantula)_sus.xlsx`
